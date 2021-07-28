@@ -3,8 +3,8 @@ const sonarqubeScanner = require('sonarqube-scanner');
 sonarqubeScanner({
   serverUrl: 'http://18.223.255.187:9000/',
        options : {
-       'sonar.projectKey': 'node-hello',
-       'sonar.projectName': 'node-hello',
+       'sonar.projectKey': 'MyNodejs',
+       'sonar.projectName': 'MyNodejs',
        'sonar.language':'js',
        'sonar.sources':'lib',
        'sonar.sourceEncoding':'UTF-8',
