@@ -42,8 +42,8 @@
     "rimraf": "^2.6.2"
   },
   "jest": {
-    "testResultsProcessor": "jest-sonar-reporter"
-    "testEnvironment": "node",
+    "testResultsProcessor": "jest-sonar-reporter",
+    "testEnvironment": "node"
   //  "testResultsProcessor": "<rootDir>/index.js"
   },
   "jestSonar": {
