@@ -30,7 +30,7 @@ jobs:
     - run: npm install sonarqube-scanner
     - run: npm run sonar
     - run: ls -R
-    - name: Push to Coverall
+    - name: Push to Coverall 
       uses: coverallsapp/github-action@master
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
