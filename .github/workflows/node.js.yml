@@ -30,6 +30,5 @@ jobs:
     - run: npm version
     - run: npm test
     - run: npm install sonarqube-scanner
-    - run: npm run sonar
     - run: ls -R
     
