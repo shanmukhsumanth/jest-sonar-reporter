@@ -27,6 +27,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install
+    - run: npm install -D sonarqube-scanner
     - run: npm ci
     - run: npm run build --if-present
     - run: npm i -D jest-sonar-reporter
@@ -35,4 +36,3 @@ jobs:
     
     - run: ls -R
     
-
