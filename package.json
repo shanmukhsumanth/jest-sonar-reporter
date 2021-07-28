@@ -44,7 +44,6 @@
   "jest": {
     "testResultsProcessor": "jest-sonar-reporter",
     "testEnvironment": "node"
-  //  "testResultsProcessor": "<rootDir>/index.js"
   },
   "jestSonar": {
     "reportPath": "reports",
