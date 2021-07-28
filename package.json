@@ -11,9 +11,10 @@
   ],
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "clean": "rimraf reports* coverage",
     "sonar": "node sonar-project.properties",
-    "test": "jest",
+    "test": "jest --coverage",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test:debug": "DEBUG=true jest",
